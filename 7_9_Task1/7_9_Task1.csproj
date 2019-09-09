@@ -120,11 +120,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\ImageController.cs" />
+    <Compile Include="Controllers\ImageUploadController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ImageUpload.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -132,11 +131,14 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Images\ball193008675.jpg" />
-    <Content Include="Content\Images\Ganesh192735342.jpg" />
-    <Content Include="Content\Images\Ganesh192904819.jpg" />
-    <Content Include="Content\Images\Ganesh192917589.jpg" />
-    <Content Include="Content\Images\Ganesh192956228.jpg" />
+    <Content Include="Content\Images\img_01658104-9b98-4774-9836-3506055059df.jpg" />
+    <Content Include="Content\Images\img_25a6e128-ebe5-48fd-8fa3-968946320515.jpg" />
+    <Content Include="Content\Images\img_2e02a573-9bc1-47a8-a6e3-03be0dd1b446.jpg" />
+    <Content Include="Content\Images\img_5b7e0233-b0d0-4603-b521-4bed55406099.jpg" />
+    <Content Include="Content\Images\img_9ca88284-af51-43f4-ab86-416bc0200262.jpg" />
+    <Content Include="Content\Images\img_b66a7c3d-8277-4e22-a57d-034140a55bba.jpg" />
+    <Content Include="Content\Images\img_ba354826-2acb-4771-8af5-d3bf6248e9c2.png" />
+    <Content Include="Content\Images\img_c558687d-1e9d-4245-83ec-daecb8868fe0.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -165,14 +167,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Image\Add.cshtml" />
-    <Content Include="Views\Image\ViewImage.cshtml" />
+    <Content Include="Views\ImageUpload\UploadImage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
